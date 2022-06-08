@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Select all Structure Framing Elements</Text>
+    <Description>Press to select all the elements which type is Structure Framing</Description>
+    <Assembly>FramingSelector.dll</Assembly>
+    <FullClassName>FramingSelector.Command</FullClassName>
+    <ClientId>fb934218-b6c7-4287-a132-3131f6d0898b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FramingSelector</Name>
+    <Assembly>FramingSelector.dll</Assembly>
+    <FullClassName>FramingSelector.App</FullClassName>
+    <ClientId>ca039dca-c0c0-46c7-98f6-3c79f69bedce</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

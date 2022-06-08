@@ -1,7 +1,0 @@
-C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Training\ImpementLesson3\ImpementLesson3\bin\Debug\ImpementLesson3.exe.config
-C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Training\ImpementLesson3\ImpementLesson3\bin\Debug\ImpementLesson3.exe
-C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Training\ImpementLesson3\ImpementLesson3\bin\Debug\ImpementLesson3.pdb
-C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Training\ImpementLesson3\ImpementLesson3\obj\Debug\ImpementLesson3.csproj.AssemblyReference.cache
-C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Training\ImpementLesson3\ImpementLesson3\obj\Debug\ImpementLesson3.csproj.CoreCompileInputs.cache
-C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Training\ImpementLesson3\ImpementLesson3\obj\Debug\ImpementLesson3.exe
-C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Training\ImpementLesson3\ImpementLesson3\obj\Debug\ImpementLesson3.pdb
