@@ -6,3 +6,12 @@ C:\Users\AKoulousis\source\repos\StructureSelector\StructureSelector\obj\Debug\S
 C:\Users\AKoulousis\source\repos\StructureSelector\StructureSelector\obj\Debug\StructureSelector.pdb
 C:\Users\AKoulousis\source\repos\StructureSelector\StructureSelector\obj\Debug\StructureSelector.Selector.resources
 C:\Users\AKoulousis\source\repos\StructureSelector\StructureSelector\obj\Debug\StructureSelector.csproj.GenerateResource.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\bin\Debug\StructureSelector.dll
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\bin\Debug\StructureSelector.pdb
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\obj\Debug\StructureSelector.csproj.AssemblyReference.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\obj\Debug\StructureSelector.Selector.resources
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\obj\Debug\StructureSelector.csproj.GenerateResource.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\obj\Debug\StructureSelector.csproj.CoreCompileInputs.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\obj\Debug\StructureSelector.dll
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\obj\Debug\StructureSelector.pdb
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\StructureSelector\StructureSelector\obj\Debug\StructureSelector.Properties.Resources.resources

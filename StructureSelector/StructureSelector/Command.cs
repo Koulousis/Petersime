@@ -63,30 +63,43 @@ namespace StructureSelector
                 }
             }
 
-
-            Selector selector = new Selector(commandData, structurePairs);
+            //Instanciate the form window
+            Selector selector = new Selector(structurePairs);
+            //Show the window
             selector.ShowDialog();
 
-            structurePairs = selector.structurePairsFiltered;
-            foreach (var item in structurePairs)
+            if (!selector.canceled)
             {
-                if (!structurePairs.ContainsKey(item.Key))
-                {
-                    structureElements.Remove(structureElements.Contains(item == item.Key);
-                }
-            }
+                //Assign the pairs which the user have selected
+                structurePairs = selector.structurePairsFiltered;
 
-            foreach (var item in structureElementsIds)
-            {
-                Element element = doc.GetElement(item);
-                if (!structureElements.Contains(element))
-                {
-                    structureElementsIds.Remove(item);
-                }
-            }
-            
-            sel.SetElementIds(structureElementsIds);
+                FilteredElementCollector newStructureFilter = new FilteredElementCollector(doc, doc.ActiveView.Id);
+                newStructureFilter.OfCategory(BuiltInCategory.OST_StructuralFraming);
+                ICollection<Element> userSelectedElements = newStructureFilter.ToElements();
+                userSelectedElements.Clear();
 
+                foreach (var item in structureElements)
+                {
+                    bool exist = structurePairs.ContainsKey(item.Name.Substring(0, item.Name.Length - 2));
+                    if (exist)
+                    {
+                        userSelectedElements.Add(item);
+                        //structureElements.Remove(item);
+                    }
+                }
+
+                FilteredElementCollector newStructureFilterId = new FilteredElementCollector(doc, doc.ActiveView.Id);
+                newStructureFilterId.OfCategory(BuiltInCategory.OST_StructuralFraming);
+                ICollection<ElementId> userSelectedElementsId = newStructureFilterId.ToElementIds();
+                userSelectedElementsId.Clear();
+
+                foreach (var item in userSelectedElements)
+                {
+                    userSelectedElementsId.Add(item.Id);
+                }
+
+                sel.SetElementIds(userSelectedElementsId);
+            }
 
 
 

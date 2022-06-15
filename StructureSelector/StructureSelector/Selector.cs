@@ -13,21 +13,13 @@ using Autodesk.Revit.UI;
 namespace StructureSelector
 {
     public partial class Selector : System.Windows.Forms.Form
-    {
-        //private UIApplication uiapp;
-        //private UIDocument uidoc;
-        //private Autodesk.Revit.ApplicationServices.Application app;
-        //private Document doc;
+    {        
         public Dictionary<string, int> structurePairsFiltered;
         public List<CheckBox> checkBoxes;
-        public Selector(ExternalCommandData commandData, Dictionary<string,int> structurePairs)
+        public bool canceled;
+        public Selector(Dictionary<string,int> structurePairs)
         {
             InitializeComponent();
-
-            //uiapp = commandData.Application;
-            //uidoc = uiapp.ActiveUIDocument;
-            //app = uiapp.Application;
-            //doc = uidoc.Document;
             structurePairsFiltered = structurePairs;
             CreateCheckBox(structurePairs);
         }
@@ -62,6 +54,12 @@ namespace StructureSelector
                     structurePairsFiltered.Remove(box.Text);
                 }
             }
+            Close();
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            canceled = true;
             Close();
         }
     }
