@@ -10,11 +10,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E3B93E84-4867-46D2-B569-B2416288F636}</ProjectGuid>
+    <ProjectGuid>{819766D5-2C45-4AFA-9641-B4BCEFBFB105}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FramingSelector</RootNamespace>
-    <AssemblyName>FramingSelector</AssemblyName>
+    <RootNamespace>StructureSelector</RootNamespace>
+    <AssemblyName>StructureSelector</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,7 +40,6 @@
     <StartProgram>$(ProgramW6432)\Autodesk\Revit 2022\Revit.exe</StartProgram>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PresentationCore" />
     <Reference Include="RevitAPI">
       <HintPath>$(ProgramW6432)\Autodesk\Revit 2022\RevitAPI.dll</HintPath>
       <Private>False</Private>
@@ -50,14 +49,29 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Selector.Designer.cs">
+      <DependentUpon>Selector.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FramingSelector.addin" />
+    <Content Include="StructureSelector.addin" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Selector.resx">
+      <DependentUpon>Selector.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
@@ -72,7 +86,7 @@ if exist "$(AppData)\Autodesk\REVIT\Addins\2022" copy "$(ProjectDir)$(OutputPath
   </Target>
   -->
   <Target Name="AfterClean">
-    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2022\FramingSelector.addin" />
-    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2022\FramingSelector.dll" />
+    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2022\StructureSelector.addin" />
+    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2022\StructureSelector.dll" />
   </Target>
 </Project>

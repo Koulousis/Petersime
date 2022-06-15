@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FramingSelector")]
-[assembly: AssemblyDescription("Revit Add-In Description for FramingSelector")]
+[assembly: AssemblyTitle("StructureSelector")]
+[assembly: AssemblyDescription("Revit Add-In Description for StructureSelector")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Autodesk Inc.")]
-[assembly: AssemblyProduct("FramingSelector Revit C# .NET Add-In")]
+[assembly: AssemblyProduct("StructureSelector Revit C# .NET Add-In")]
 [assembly: AssemblyCopyright("Copyright 2022 (C) Jeremy Tammik, Autodesk Inc.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

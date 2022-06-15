@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command StructureSelector</Text>
+    <Description>Some description for StructureSelector</Description>
+    <Assembly>StructureSelector.dll</Assembly>
+    <FullClassName>StructureSelector.Command</FullClassName>
+    <ClientId>2ef1dc88-0231-4b60-a63a-dcbe6e6ee711</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application StructureSelector</Name>
+    <Assembly>StructureSelector.dll</Assembly>
+    <FullClassName>StructureSelector.App</FullClassName>
+    <ClientId>5e8e2206-8c80-4e22-9802-c0d3ff695347</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
