@@ -73,31 +73,37 @@ namespace StructureSelector
                 //Assign the pairs which the user have selected
                 structurePairs = selector.structurePairsFiltered;
 
+                //Instanciate a new elements collection and clear it
                 FilteredElementCollector newStructureFilter = new FilteredElementCollector(doc, doc.ActiveView.Id);
                 newStructureFilter.OfCategory(BuiltInCategory.OST_StructuralFraming);
                 ICollection<Element> userSelectedElements = newStructureFilter.ToElements();
                 userSelectedElements.Clear();
 
+                //Add to the cleared collection those elements which exist on the
+                //list that the user have selected from the form
                 foreach (var item in structureElements)
                 {
                     bool exist = structurePairs.ContainsKey(item.Name.Substring(0, item.Name.Length - 2));
                     if (exist)
                     {
                         userSelectedElements.Add(item);
-                        //structureElements.Remove(item);
                     }
                 }
 
+                //Instanciate a new elements id collection and clear it
                 FilteredElementCollector newStructureFilterId = new FilteredElementCollector(doc, doc.ActiveView.Id);
                 newStructureFilterId.OfCategory(BuiltInCategory.OST_StructuralFraming);
                 ICollection<ElementId> userSelectedElementsId = newStructureFilterId.ToElementIds();
                 userSelectedElementsId.Clear();
 
+                //Add the element ids which are on the element collection that
+                //the user have selected
                 foreach (var item in userSelectedElements)
                 {
                     userSelectedElementsId.Add(item.Id);
                 }
 
+                //Select the elements using the elements id collection
                 sel.SetElementIds(userSelectedElementsId);
             }
 
