@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ExternalTest</Text>
+    <Description>Some description for ExternalTest</Description>
+    <Assembly>ExternalTest.dll</Assembly>
+    <FullClassName>ExternalTest.Command</FullClassName>
+    <ClientId>422e62ff-5d41-4da5-b4d0-f1016e9c87b8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ExternalTest</Name>
+    <Assembly>ExternalTest.dll</Assembly>
+    <FullClassName>ExternalTest.App</FullClassName>
+    <ClientId>99810d38-1a23-4473-b635-59cece9d077a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,16 @@
+C:\Users\AKoulousis\source\repos\ExternalTest\ExternalTest\bin\Debug\ExternalTest.dll
+C:\Users\AKoulousis\source\repos\ExternalTest\ExternalTest\bin\Debug\ExternalTest.pdb
+C:\Users\AKoulousis\source\repos\ExternalTest\ExternalTest\obj\Debug\ExternalTest.csproj.AssemblyReference.cache
+C:\Users\AKoulousis\source\repos\ExternalTest\ExternalTest\obj\Debug\ExternalTest.ModelessForm.resources
+C:\Users\AKoulousis\source\repos\ExternalTest\ExternalTest\obj\Debug\ExternalTest.csproj.GenerateResource.cache
+C:\Users\AKoulousis\source\repos\ExternalTest\ExternalTest\obj\Debug\ExternalTest.csproj.CoreCompileInputs.cache
+C:\Users\AKoulousis\source\repos\ExternalTest\ExternalTest\obj\Debug\ExternalTest.dll
+C:\Users\AKoulousis\source\repos\ExternalTest\ExternalTest\obj\Debug\ExternalTest.pdb
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Templates\ExternalTest\ExternalTest\bin\Debug\ExternalTest.dll
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Templates\ExternalTest\ExternalTest\bin\Debug\ExternalTest.pdb
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Templates\ExternalTest\ExternalTest\obj\Debug\ExternalTest.csproj.AssemblyReference.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Templates\ExternalTest\ExternalTest\obj\Debug\ExternalTest.ModelessForm.resources
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Templates\ExternalTest\ExternalTest\obj\Debug\ExternalTest.csproj.GenerateResource.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Templates\ExternalTest\ExternalTest\obj\Debug\ExternalTest.csproj.CoreCompileInputs.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Templates\ExternalTest\ExternalTest\obj\Debug\ExternalTest.dll
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Templates\ExternalTest\ExternalTest\obj\Debug\ExternalTest.pdb
