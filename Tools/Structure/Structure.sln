@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picker", "Picker\Picker.csproj", "{9AF546FA-65AE-4CDD-9A0B-604BEFA5377F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AF546FA-65AE-4CDD-9A0B-604BEFA5377F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF546FA-65AE-4CDD-9A0B-604BEFA5377F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF546FA-65AE-4CDD-9A0B-604BEFA5377F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF546FA-65AE-4CDD-9A0B-604BEFA5377F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A65A669-B2A9-4DE3-A66C-9EB089F2F665}
+	EndGlobalSection
+EndGlobal
