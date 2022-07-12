@@ -1,0 +1,6 @@
+C:\Users\AKoulousis\source\repos\Structure\Picker\bin\Debug\Picker.dll
+C:\Users\AKoulousis\source\repos\Structure\Picker\bin\Debug\Picker.pdb
+C:\Users\AKoulousis\source\repos\Structure\Picker\obj\Debug\Picker.csproj.AssemblyReference.cache
+C:\Users\AKoulousis\source\repos\Structure\Picker\obj\Debug\Picker.csproj.CoreCompileInputs.cache
+C:\Users\AKoulousis\source\repos\Structure\Picker\obj\Debug\Picker.dll
+C:\Users\AKoulousis\source\repos\Structure\Picker\obj\Debug\Picker.pdb
