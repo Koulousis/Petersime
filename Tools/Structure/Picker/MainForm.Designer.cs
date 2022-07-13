@@ -32,6 +32,7 @@ namespace Picker
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.panelTabStructures = new System.Windows.Forms.Panel();
 			this.tabStructures = new System.Windows.Forms.TabControl();
+			this.tabColumns = new System.Windows.Forms.TabPage();
 			this.tabConnections = new System.Windows.Forms.TabPage();
 			this.tabFoundations = new System.Windows.Forms.TabPage();
 			this.tabFramings = new System.Windows.Forms.TabPage();
@@ -39,7 +40,6 @@ namespace Picker
 			this.panelPetersimeBanner = new System.Windows.Forms.Panel();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.tabColumns = new System.Windows.Forms.TabPage();
 			this.panelTabStructures.SuspendLayout();
 			this.tabStructures.SuspendLayout();
 			this.panelPetersimeBanner.SuspendLayout();
@@ -68,6 +68,18 @@ namespace Picker
 			this.tabStructures.SelectedIndex = 0;
 			this.tabStructures.Size = new System.Drawing.Size(316, 384);
 			this.tabStructures.TabIndex = 0;
+			// 
+			// tabColumns
+			// 
+			this.tabColumns.AutoScroll = true;
+			this.tabColumns.BackColor = System.Drawing.SystemColors.Info;
+			this.tabColumns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.tabColumns.Location = new System.Drawing.Point(4, 22);
+			this.tabColumns.Name = "tabColumns";
+			this.tabColumns.Padding = new System.Windows.Forms.Padding(3);
+			this.tabColumns.Size = new System.Drawing.Size(308, 358);
+			this.tabColumns.TabIndex = 0;
+			this.tabColumns.Text = "Columns";
 			// 
 			// tabConnections
 			// 
@@ -148,18 +160,6 @@ namespace Picker
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
 			// 
-			// tabColumns
-			// 
-			this.tabColumns.AutoScroll = true;
-			this.tabColumns.BackColor = System.Drawing.SystemColors.Info;
-			this.tabColumns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.tabColumns.Location = new System.Drawing.Point(4, 22);
-			this.tabColumns.Name = "tabColumns";
-			this.tabColumns.Padding = new System.Windows.Forms.Padding(3);
-			this.tabColumns.Size = new System.Drawing.Size(308, 358);
-			this.tabColumns.TabIndex = 0;
-			this.tabColumns.Text = "Columns";
-			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -171,7 +171,7 @@ namespace Picker
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximizeBox = false;
 			this.Name = "MainForm";
-			this.Text = "Strucure Picker";
+			this.Text = "Structure Picker";
 			this.panelTabStructures.ResumeLayout(false);
 			this.tabStructures.ResumeLayout(false);
 			this.panelPetersimeBanner.ResumeLayout(false);

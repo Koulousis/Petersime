@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Command">
-    <Text>Command Picker</Text>
-    <Description>Some description for Picker</Description>
+    <Text>Picker</Text>
+    <Description>This tool, let the user select/deselect Structural In-place families.</Description>
     <Assembly>Picker.dll</Assembly>
     <FullClassName>Picker.Command</FullClassName>
     <ClientId>32ebfb10-0788-465d-a394-0a0e85d18de2</ClientId>
@@ -10,7 +10,7 @@
     <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
   </AddIn>
   <AddIn Type="Application">
-    <Name>Application Picker</Name>
+    <Name>Picker</Name>
     <Assembly>Picker.dll</Assembly>
     <FullClassName>Picker.App</FullClassName>
     <ClientId>d944a4f1-5478-4f0d-afe0-7ec90d51c14b</ClientId>
