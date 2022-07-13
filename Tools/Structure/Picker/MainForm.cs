@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Picker
@@ -19,11 +20,6 @@ namespace Picker
 		public static string checkBoxSelectedName;
 		public static bool checkBoxSelectedStatus;
 		public static string checkBoxSelectedTag;
-		//public List<CheckBox> columnsCheckBoxes;
-		//public List<CheckBox> connectionsCheckBoxes;
-		//public List<CheckBox> foundationsCheckBoxes;
-		//public List<CheckBox> framingsCheckBoxes;
-		//public List<CheckBox> stiffenersCheckBoxes;
 
 		public MainForm(ExternalEvent externalEvent, Handler handler, UIApplication uiapp)
 		{
@@ -61,15 +57,17 @@ namespace Picker
 					checkBox.AutoSize = true;
 					checkBox.Location = new System.Drawing.Point(cordx, cordy);
 					checkBox.Name = name;
-					checkBox.Size = new System.Drawing.Size(80, 17);
 					checkBox.TabIndex = 0;
 					checkBox.Text = name;
 					checkBox.UseVisualStyleBackColor = true;
+					checkBox.AutoSize = false;
+					checkBox.Appearance = Appearance.Button;
+					checkBox.TextAlign = ContentAlignment.MiddleCenter;
+					checkBox.Size = new Size(270, 24);				
 					checkBox.Tag = "Columns";
 					tabColumns.Controls.Add(checkBox);
 					cordy += 24;
 					checkBox.CheckedChanged += new EventHandler(this.CheckBoxSelected);
-					//columnsCheckBoxes.Add(checkBox);
 				}
 			}			
 
@@ -85,15 +83,17 @@ namespace Picker
 					checkBox.AutoSize = true;
 					checkBox.Location = new System.Drawing.Point(cordx, cordy);
 					checkBox.Name = name;
-					checkBox.Size = new System.Drawing.Size(80, 17);
 					checkBox.TabIndex = 0;
 					checkBox.Text = name;
 					checkBox.UseVisualStyleBackColor = true;
+					checkBox.AutoSize = false;
+					checkBox.Appearance = Appearance.Button;
+					checkBox.TextAlign = ContentAlignment.MiddleCenter;
+					checkBox.Size = new Size(270, 24);
 					checkBox.Tag = "Connections";
 					tabConnections.Controls.Add(checkBox);
 					cordy += 24;
 					checkBox.CheckedChanged += new EventHandler(this.CheckBoxSelected);
-					//connectionsCheckBoxes.Add(checkBox);
 				}
 			}			
 
@@ -109,15 +109,17 @@ namespace Picker
 					checkBox.AutoSize = true;
 					checkBox.Location = new System.Drawing.Point(cordx, cordy);
 					checkBox.Name = name;
-					checkBox.Size = new System.Drawing.Size(80, 17);
 					checkBox.TabIndex = 0;
 					checkBox.Text = name;
 					checkBox.UseVisualStyleBackColor = true;
+					checkBox.AutoSize = false;
+					checkBox.Appearance = Appearance.Button;
+					checkBox.TextAlign = ContentAlignment.MiddleCenter;
+					checkBox.Size = new Size(270, 24);
 					checkBox.Tag = "Foundations";
 					tabFoundations.Controls.Add(checkBox);
 					cordy += 24;
 					checkBox.CheckedChanged += new EventHandler(this.CheckBoxSelected);
-					//foundationsCheckBoxes.Add(checkBox);
 				}
 			}			
 
@@ -133,15 +135,17 @@ namespace Picker
 					checkBox.AutoSize = true;
 					checkBox.Location = new System.Drawing.Point(cordx, cordy);
 					checkBox.Name = name;
-					checkBox.Size = new System.Drawing.Size(80, 17);
 					checkBox.TabIndex = 0;
 					checkBox.Text = name;
 					checkBox.UseVisualStyleBackColor = true;
+					checkBox.AutoSize = false;
+					checkBox.Appearance = Appearance.Button;
+					checkBox.Size = new Size(270, 24);
+					checkBox.TextAlign = ContentAlignment.MiddleCenter;					
 					checkBox.Tag = "Framings";
 					tabFramings.Controls.Add(checkBox);
 					cordy += 24;
 					checkBox.CheckedChanged += new EventHandler(this.CheckBoxSelected);
-					//framingsCheckBoxes.Add(checkBox);
 				}
 			}
 
@@ -158,15 +162,17 @@ namespace Picker
 					checkBox.AutoSize = true;
 					checkBox.Location = new System.Drawing.Point(cordx, cordy);
 					checkBox.Name = name;
-					checkBox.Size = new System.Drawing.Size(80, 17);
 					checkBox.TabIndex = 0;
 					checkBox.Text = name;
 					checkBox.UseVisualStyleBackColor = true;
+					checkBox.AutoSize = false;
+					checkBox.Appearance = Appearance.Button;
+					checkBox.TextAlign = ContentAlignment.MiddleCenter;
+					checkBox.Size = new Size(270, 24);
 					checkBox.Tag = "Stiffeners";
 					tabStiffeners.Controls.Add(checkBox);
 					cordy += 24;
 					checkBox.CheckedChanged += new EventHandler(this.CheckBoxSelected);
-					//stiffenersCheckBoxes.Add(checkBox);
 				}
 			}			
 		}
@@ -179,6 +185,5 @@ namespace Picker
 			checkBoxSelectedTag = checkBox.Tag.ToString();
 			_externalEvent.Raise();
 		}
-
 	}
 }

@@ -6,3 +6,12 @@ C:\Users\AKoulousis\source\repos\Structure\Picker\obj\Debug\Picker.dll
 C:\Users\AKoulousis\source\repos\Structure\Picker\obj\Debug\Picker.pdb
 C:\Users\AKoulousis\source\repos\Structure\Picker\obj\Debug\Picker.MainForm.resources
 C:\Users\AKoulousis\source\repos\Structure\Picker\obj\Debug\Picker.csproj.GenerateResource.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\bin\Debug\Picker.dll
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\bin\Debug\Picker.pdb
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\obj\Debug\Picker.csproj.AssemblyReference.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\obj\Debug\Picker.MainForm.resources
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\obj\Debug\Picker.Properties.Resources.resources
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\obj\Debug\Picker.csproj.GenerateResource.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\obj\Debug\Picker.csproj.CoreCompileInputs.cache
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\obj\Debug\Picker.dll
+C:\Users\AKoulousis\OneDrive - Petersime NV\Bureaublad\Master\Petersime\Tools\Structure\Picker\obj\Debug\Picker.pdb

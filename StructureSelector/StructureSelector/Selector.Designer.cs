@@ -36,6 +36,8 @@ namespace StructureSelector
 			this.buttonCancel = new System.Windows.Forms.Button();
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.button1 = new System.Windows.Forms.Button();
+			this.checkBox1 = new System.Windows.Forms.CheckBox();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
@@ -83,11 +85,36 @@ namespace StructureSelector
 			this.pictureBox1.TabIndex = 2;
 			this.pictureBox1.TabStop = false;
 			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(128, 70);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.TabIndex = 3;
+			this.button1.Text = "button1";
+			this.button1.UseVisualStyleBackColor = true;
+			// 
+			// checkBox1
+			// 
+			this.checkBox1.Checked = true;
+			this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.checkBox1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+			this.checkBox1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(209)))), ((int)(((byte)(139)))));
+			this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.checkBox1.Location = new System.Drawing.Point(12, 128);
+			this.checkBox1.Name = "checkBox1";
+			this.checkBox1.Size = new System.Drawing.Size(249, 30);
+			this.checkBox1.TabIndex = 4;
+			this.checkBox1.Text = "checkBox1";
+			this.checkBox1.UseVisualStyleBackColor = true;
+			// 
 			// Selector
 			// 
 			this.AutoSize = true;
 			this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.checkBox1);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.panel1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -109,5 +136,7 @@ namespace StructureSelector
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-    }
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.CheckBox checkBox1;
+	}
 }

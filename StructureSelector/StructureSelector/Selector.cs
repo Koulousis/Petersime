@@ -39,7 +39,6 @@ namespace StructureSelector
                 checkBox.TabIndex = 0;
                 checkBox.Text = item.Key;
                 checkBox.UseVisualStyleBackColor = true;
-                panelGeneral.Controls.Add(checkBox);
                 //Controls.Add(checkBox);
                 cordy += 24;
                 checkBoxes.Add(checkBox);
