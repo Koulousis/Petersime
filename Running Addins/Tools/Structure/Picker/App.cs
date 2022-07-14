@@ -76,6 +76,7 @@ namespace Picker
 
 			// create push buttons for split button drop down
 			PushButtonData bOne = new PushButtonData("Tools", "Structure Picker", thisAssemblyPath, "Picker.Command");
+			bOne.ToolTip = "This tool, let the user select/deselect Structural In-place families.";
 			bOne.LargeImage = new BitmapImage(new Uri(@"J:\Drawings REVIT FAMILIES\02 NEW\Aris\Logos\Tools\Picker35x35.png"));
 			
 			SplitButtonData sb1 = new SplitButtonData("Tools", "Tools");
